@@ -1,0 +1,28 @@
+.food-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.food-item img {
+  width: auto; /* Adjust size as needed */
+  height: auto; /* Adjust size as needed */
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.food-item div {
+  flex: 1;
+}
+
+.food-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.food-item p {
+  margin: 5px 0;
+}
